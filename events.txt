@@ -1,0 +1,29 @@
+﻿
+<div class="day-event w3-card-4" date-month="1" date-day="23" style="display:block !important;">
+	<div class="w3-row w3-card-4 w3-padding-8 w3-blue w3-center label-shadow ">
+			<h2 class="title">Казань</h2>
+	
+	</div>
+	<p class="date">2016-01-23</p>
+	<p>Концерт Ильдара Хабибуллина и группы "SAMHEY" в Казани.
+23 января в 19:00 Дом вне времени, Спартаковская ул.2a.</p>
+<a href="https://vk.com/samhey_and_co" target="_blank"><button class="w3-btn w3-white w3-border read-more">Подробнее</button></a>
+</div>
+
+
+<div class="day-event" date-month="12" date-day="12">
+	<label>
+		<span><h4 class="title">Lorem ipsum 2</h4></span>
+	</label>
+		<p class="date">2016-01-23</p>
+	<p>Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver och blandade dem för att göra ett provexemplar av en bok.</p>
+</div>
+
+
+<div class="day-event" date-month="12" date-day="11">
+		<label>
+		<span><h4 class="title">Lorem ipsum 3</h4></span>
+	</label>
+		<p class="date">2015-12-16</p>
+	<p>Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare tog att antal bokstäver och blandade dem för att göra ett provexemplar av en bok.</p>
+</div>

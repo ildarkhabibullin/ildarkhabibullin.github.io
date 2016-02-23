@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ildar Khabibullin</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<!-- Audio plauer-->
+    <script src="audioplayerengine/jquery.js"></script>
+    <script src="audioplayerengine/amazingaudioplayer.js"></script>
+    <link rel="stylesheet" type="text/css" href="audioplayerengine/initaudioplayer-1.css">
+    <script src="audioplayerengine/initaudioplayer-1.js"></script>
+    <style> body { background: url("images/fon_blue.jpg") no-repeat;   background-size: 25%; } </style>
+</head>
+<body>
+  <ul class="top-nav w3-card-4">
+      <li class="w3-xxlarge"><a href="index.html" class="material-icons">home</a></li>
+      <li><a href="bio.html">Биография</a></li>
+      <li><a href="music.html">Музыка</a></li>
+      <li><a href="video.html">Видео</a></li>
+      <li><a href="lessons.html">Обучение</a></li>
+      <li><a href="news.html">Новости</a></li>
+      <li><a href="contacts.html" class="active">Контакты</a></li>
+    <ul class="top-nav right">
+
+    </ul>
+  </ul>
+  <div class="w3-row">
+    <div class="w3-col m8 con_info">
+      <div class="w3-row w3-padding-32 w3-center" >
+        
+            <a href="https://vk.com/id273666718"><img src="images/social/vk.jpg" class="social w3-card-4"></a>
+            <a href="#"><img src="images/social/fb.jpg" class="social w3-card-4"></a>
+            <a href="#"><img src="images/social/twitter.jpg" class="social w3-card-4"></a>
+            <a href="https://www.youtube.com/channel/UC_x3bfWgwYRCdrW3fiv45rQ"><img src="images/social/yt.jpg" class="social w3-card-4"></a>
+             
+            <p class="font-face">Адрес: Россия, Республика Татарстан, г. Альметьевск</p>
+
+              <p class="font-face">Email: public.ildarkhabibullin@gmail.com</p>
+      </div>
+      
+      <div class="w3-row"> 
+        <div class="contact-form w3-card-4">
+            <div class="w3-container w3-blue form-label">
+              <h2>Написать сообщение</h2>
+            </div>
+           <form class="w3-form" action="mail.php" method="POST">
+              <input name="name" id="name" class="w3-input" req>
+              <label class="w3-label w3-validate" for="name">Имя</label>
+              <input name="email" id="email" type="email" class="w3-input">
+              <label class="w3-label w3-validate" for="email">E-mail</label>
+              <input name="phone" id="phone" class="w3-input">
+                          <label class="w3-label w3-validate" for="phone">Контактный тлефон</label>
+              <textarea name="text" id="text" class="w3-input"></textarea>
+                       <label class="w3-label w3-validate" for="text">Текст сообщения</label><br>
+              <input type="submit" class="w3-btn w3-blue w3-border w3-right submit" value="Отправить">
+              </form> 
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-left">
+      <div class="con_fon">
+      
+      </div>
+    </div>
+  </div>
+</body>
+</html>
