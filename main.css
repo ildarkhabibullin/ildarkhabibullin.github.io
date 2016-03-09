@@ -329,7 +329,8 @@ margin-left: 28%;
 }
 
 .accordion-video-box {
-
-	margin-left: 20%;
+	height: 260px;
 	margin-bottom: 1%;
+	margin-left: 25%;
+	width: 50%;
 }
